@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+rapport_audit_*.txt
+.venv/
+.vscode/
