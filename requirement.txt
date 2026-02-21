@@ -1,0 +1,2 @@
+# Bibliothèques pour l'outil d'audit
+psutil==5.9.8
