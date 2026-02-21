@@ -1,5 +1,27 @@
+# --- Environnement Virtuel ---
+.venv/
+venv/
+ENV/
+
+# --- Python (Fichiers compilés) ---
 __pycache__/
 *.py[cod]
-rapport_audit_*.txt
-.venv/
+*$py.class
+
+# --- PyInstaller (Build et Exécutables) ---
+# On ignore les dossiers de travail et le fichier de config
+build/
+*.spec
+# On ignore le dossier dist car il contient les binaires lourds
+dist/
+
+# --- Résultats de l'audit (Données personnelles) ---
+# On ne veut pas que tes rapports personnels soient publics
+reports/
+*.log
+audit_trace.log
+
+# --- IDE (Optionnel mais recommandé) ---
 .vscode/
+.idea/
+.DS_Store
